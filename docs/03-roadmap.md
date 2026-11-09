@@ -30,7 +30,7 @@
 **Задачи**
 1. `git init` в корне `track-me`, `.gitignore`, первый коммит с `docs/`. С этого момента — **только терминал**, без GUI.
 2. Создать репозиторий на GitHub, подключить remote, запушить. Включить защиту `main` (только через PR).
-3. Включить corepack и pnpm, оформить `pnpm-workspace.yaml`, перенести `frontend/` → `apps/web` через `git mv` (почему не просто перенос в проводнике?).
+3. Включить corepack и pnpm, оформить `pnpm-workspace.yaml`, создать `apps/web` через `create-next-app`.
 4. Пустые `apps/api`, `packages/contracts` с `package.json` и `tsconfig` (общий `tsconfig.base.json`).
 5. commitlint + lefthook: невалидное сообщение коммита отклоняется.
 6. Git-тренажёр: пройти Learn Git Branching (разделы Main и Remote) и в песочнице-репо руками сделать `rebase`, `cherry-pick`, `reset --soft/--hard`, `reflog`, восстановить «потерянный» коммит.
